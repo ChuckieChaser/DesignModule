@@ -4,6 +4,7 @@ Its purpose is to add modular design to console. It has both advance and basic
 concept of looping to reduce the redundancy of design implications.
 
 :============================== [ PROPERTIES ] ==============================:
+
 :consoleWidth (int):
   the width of the system that will be displayed inside a terminal or console
 
@@ -15,6 +16,7 @@ concept of looping to reduce the redundancy of design implications.
   text alignment for display function
 
 :============================== [ FUNCTIONS ] ===============================:
+
 :bold(string):
   creates a bold text. Take note that it will take atleast 8 spaces
 
@@ -41,6 +43,7 @@ concept of looping to reduce the redundancy of design implications.
   tuple
 
 :=============================== [ HISTORY ] ================================:
+
 12:50 | 10 / 03 / 2024
   Coded the basic functionality and the first iteration of the design module
   Started the documentation for better and clearer understanding
@@ -49,5 +52,5 @@ concept of looping to reduce the redundancy of design implications.
   module
 
 :============================= [ KNOWN BUGS ] ===============================:
-1. Adding bold function to StringArgs parameter causes it to mismatch the alignment
- of edges
+
+1. Adding bold function to StringArgs parameter causes it to mismatch the alignment of edges
